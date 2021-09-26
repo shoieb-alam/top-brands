@@ -1,6 +1,6 @@
 # MOST VALUABLE BRANDS
 
-This site is for showing [Top Brands](https://github.com/ProgrammingHeroWC4/the-superhero-direction-shoieb-alam).
+Let's explore [Top Brands](https://superhero-director-shoieb.netlify.app/) from most valuable brands.
 
 ## Available Points
 
