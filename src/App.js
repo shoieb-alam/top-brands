@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/Header/Header';
-import Cart from './components/Cart/Cart';
+import BrandsField from './components/BrandsField/BrandsField';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello from app</h1>
+    <div className="">
       <Header></Header>
-      <Cart></Cart>
+      <BrandsField></BrandsField>
     </div>
   );
 }

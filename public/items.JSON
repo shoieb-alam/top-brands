@@ -1,0 +1,102 @@
+[
+    {
+        "key": "0001",
+        "rank": "01",
+        "name": "Apple",
+        "value": "$241.2 B",
+        "revenue": "$260.2 B",
+        "industry": "Technology",
+        "img": "https://cdn.worldvectorlogo.com/logos/apple.svg",
+        "url": " https://www.apple.com/ "
+    },
+    {
+        "key": "0002",
+        "rank": "02",
+        "name": "Google",
+        "value": "$207.5 B",
+        "revenue": "$145.6 B",
+        "industry": "Technology",
+        "img": "https://cdn.worldvectorlogo.com/logos/google-g-2015.svg",
+        "url": "https://www.google.com/"
+    },
+    {
+        "key": "0003",
+        "rank": "03",
+        "name": "Microsoft",
+        "value": "$162.9 B",
+        "revenue": "$125.8 B",
+        "industry": "Technology",
+        "img": "https://cdn.worldvectorlogo.com/logos/microsoft-5.svg",
+        "url": "https://www.microsoft.com/"
+    },
+    {
+        "key": "0004",
+        "rank": "04",
+        "name": "Amazon",
+        "value": "$135.4 B",
+        "revenue": "$260.5 B",
+        "industry": "Technology",
+        "img": "https://cdn.worldvectorlogo.com/logos/amazon-icon-1.svg",
+        "url": "https://www.amazon.com/"
+    },
+    {
+        "key": "0005",
+        "rank": "05",
+        "name": "Facebook",
+        "value": "$70.3 B",
+        "revenue": "$49.7 B",
+        "industry": "Technology",
+        "img": "https://cdn.worldvectorlogo.com/logos/facebook-3.svg",
+        "url": "https://www.facebook.com/"
+    },
+    {
+        "key": "0006",
+        "rank": "06",
+        "name": "Coca-Cola",
+        "value": "$64.4 B",
+        "revenue": "$25.2 B",
+        "industry": "Beverages",
+        "img": "https://cdn.worldvectorlogo.com/logos/coca-cola.svg",
+        "url": "https://www.coca-cola.com/"
+    },
+    {
+        "key": "0007",
+        "rank": "07",
+        "name": "Disney",
+        "value": "$61.3 B",
+        "revenue": "$38.7 B",
+        "industry": "Leisure",
+        "img": "https://cdn.worldvectorlogo.com/logos/disney.svg",
+        "url": "https://www.disney.com/"
+    },
+    {
+        "key": "0008",
+        "rank": "08",
+        "name": "Samsung",
+        "value": "$50.4 B",
+        "revenue": "$209.5 B",
+        "industry": "Technology",
+        "img": "https://cdn.worldvectorlogo.com/logos/samsung.svg",
+        "url": "https://www.samsung.com/"
+    },
+    {
+        "key": "0009",
+        "rank": "09",
+        "name": "Louis Vuitton",
+        "value": "$47.2 B",
+        "revenue": "$15 B",
+        "industry": "Luxury",
+        "img": "https://cdn.worldvectorlogo.com/logos/louis-vuitton-1.svg",
+        "url": "https://eu.louisvuitton.com/"
+    },
+    {
+        "key": "0010",
+        "rank": "10",
+        "name": "McDonald's",
+        "value": "$46.1 B",
+        "revenue": "$100.2 B",
+        "industry": "Restaurants",
+        "img": "https://cdn.worldvectorlogo.com/logos/mcdonalds-7.svg",
+        "url": "https://www.mcdonalds.com/"
+    }
+]
