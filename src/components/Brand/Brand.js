@@ -1,9 +1,13 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faCalculator } from '@fortawesome/free-solid-svg-icons';
 import './Brand.css'
 
 const Brand = (props) => {
     // console.log(props.brand);
     const { rank, img, name, value, revenue, industry, url } = props.brand;
+    const element = <FontAwesomeIcon icon={faCalculator} />
+
     return (
         <div className='text-center border border-dark py-3 bg-light m-3 rounded-3'>
             <img className='w-25 h-25' src={img} alt="" />
@@ -17,7 +21,7 @@ const Brand = (props) => {
                 <p>Visit: <a href={url} target="_blank" rel='noreferrer'>{url}</a></p>
                 {/* <button className='btn-regular'>add to cart</button> */}
                 <button
-                    onClick={() => props.handleAddtoCount(props.brand)} type="button" className="btn btn-outline-dark mb-4">Add to Count</button>
+                    onClick={() => props.handleAddtoCount(props.brand)} type="button" className="btn btn-outline-dark mb-4">{element} Add to Count</button>
 
             </div>
         </div>

@@ -7,14 +7,15 @@ const Cart = (props) => {
     for (const brand of cart) {
         total = total + brand.value;
     }
+    const final = total.toFixed(2);
     return (
-        <div className='border border-dark rounded-3 p-2 bg-light m-3 h-25'>
+        <div className='cart bg-light m-3'>
             <h4>Calculation Summary</h4>
-            <br />
+            <hr />
             <br />
             <p>Brand Counted: {props.cart.length} </p>
             <br />
-            <h5>Total Brand Value: ${total}B </h5>
+            <h5>Total Brand Value: ${final} B </h5>
         </div>
     );
 };
