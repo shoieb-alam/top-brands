@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faCalculator } from '@fortawesome/free-solid-svg-icons';
+import { faCalculator } from '@fortawesome/free-solid-svg-icons';
 import './Brand.css'
 
 const Brand = (props) => {

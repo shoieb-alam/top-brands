@@ -1,11 +1,14 @@
-.shop-container{
+.brandField-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background: url("../../images/bg.png") no-repeat fixed center;
+    background-size: cover;
 }
-.product-container{
+.brand-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-right: 1px solid lightgray;
     margin-right: 5px;
     margin-left: 10px;
+    background-color: RGBA(12, 11, 11, 0.7);
 }

@@ -6,8 +6,10 @@ import BrandsField from './components/BrandsField/BrandsField';
 function App() {
   return (
     <div className="">
-      <Header></Header>
-      <BrandsField></BrandsField>
+      <div className="bg-color">
+        <Header></Header>
+        <BrandsField></BrandsField>
+      </div>
     </div>
   );
 }

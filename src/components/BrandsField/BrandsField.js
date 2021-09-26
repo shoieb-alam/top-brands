@@ -20,8 +20,8 @@ const BrandsField = () => {
     }
 
     return (
-        <div className="shop-container">
-            <div className="product-container">
+        <div className="brandField-container">
+            <div className="brand-container">
                 {
                     brands.map(brand => <Brand
                         key={brand.key}
@@ -31,7 +31,10 @@ const BrandsField = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart
+                    cart={cart}
+                    brands={brands}
+                ></Cart>
             </div>
         </div>
     );

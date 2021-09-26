@@ -2,7 +2,6 @@
     line-height: 50px;
     margin-top: 0px;
     text-align: center;
-}
-.logo{
-    width: 500px;
+    color: white;
+    background-color: RGBA(12, 11, 11, 1.0);
 }
