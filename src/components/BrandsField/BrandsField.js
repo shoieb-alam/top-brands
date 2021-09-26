@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Brand from '../Brand/Brand';
+import Cart from '../Cart/Cart';
 import './BrandsField.css'
 
 const BrandsField = () => {
     const [brands, setBrands] = useState([]);
+
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('./items.JSON')
@@ -11,7 +14,10 @@ const BrandsField = () => {
             .then(data => setBrands(data))
     }, [])
 
-
+    const handleAddtoCount = (brand) => {
+        const newCount = [...cart, brand];
+        setCart(newCount);
+    }
 
     return (
         <div className="shop-container">
@@ -20,12 +26,12 @@ const BrandsField = () => {
                     brands.map(brand => <Brand
                         key={brand.key}
                         brand={brand}
+                        handleAddtoCount={handleAddtoCount}
                     ></Brand>)
                 }
             </div>
             <div className="cart-container">
-                <h3>Order Summary</h3>
-                <h5>Items Ordered: </h5>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
