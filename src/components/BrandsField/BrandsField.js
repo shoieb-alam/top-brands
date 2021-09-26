@@ -14,6 +14,7 @@ const BrandsField = () => {
             .then(data => setBrands(data))
     }, [])
 
+    //counting handling function
     const handleAddtoCount = (brand) => {
         const newCount = [...cart, brand];
         setCart(newCount);
